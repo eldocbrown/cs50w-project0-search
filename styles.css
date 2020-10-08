@@ -4,10 +4,10 @@ body {
 
 .links {
   text-align: right;
+  padding-bottom: 100px;
 }
 
 .advLinks {
-  text-align: right;
   height: 60px;
   line-height: 60px;
   background: #f1f1f1;
@@ -22,7 +22,14 @@ body {
   top: 0;
   -moz-user-select: -moz-none;
   width: 100%;
-  z-index:-1
+}
+
+.logoHolder, .whiteSpaceHolder, .linkHolder {
+  float: left;
+}
+
+.whiteSpaceHolder {
+  width:82%;
 }
 
 .link {
@@ -32,10 +39,9 @@ body {
   line-height: 24px;
   outline: none;
   vertical-align: middle;
-  white-space: nowrap;
   font-size: 13px;
   padding: 10px;
-  padding-bottom: 100px;
+  z-index:3;
 }
 
 #logo {
@@ -169,7 +175,7 @@ body {
 .appBar {
   color: #d93025;
   font-size: 20px;
-  margin-top: -20px;
+  margin-top: 20px;
   margin-right: 35px;
   margin-bottom: 25px;
   margin-left: 35px;
